@@ -12,8 +12,32 @@ header {
     text-align: center;
 }
 
+nav {
+    background-color: #444;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
 section {
     padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
 }
 
 footer {
@@ -21,9 +45,9 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
-    width: 100%;
+    position: relative;
     bottom: 0;
+    width: 100%;
 }
 
 a {
